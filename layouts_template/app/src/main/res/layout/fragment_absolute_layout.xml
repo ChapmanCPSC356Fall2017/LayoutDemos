@@ -1,0 +1,34 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="edu.chapman.cpsc356.layouts.AbsoluteLayoutFragment">
+
+    <ImageView
+        android:layout_x="50dp"
+        android:layout_y="50dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:onClick="onClickCard"
+        android:src="@drawable/nine"/>
+
+    <ImageView
+        android:layout_x="100dp"
+        android:layout_y="100dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:onClick="onClickCard"
+        android:src="@drawable/nine"/>
+
+    <ImageView
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:onClick="onClickCard"
+        android:src="@drawable/nine"/>
+
+</AbsoluteLayout>

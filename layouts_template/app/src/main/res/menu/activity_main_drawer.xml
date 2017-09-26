@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gridlayout"
+            android:title="GridLayout"/>
+        <item
+            android:id="@+id/nav_tablelayout"
+            android:title="TableLayout"/>
+        <item
+            android:id="@+id/nav_framelayout"
+            android:title="FrameLayout"/>
+        <item
+            android:id="@+id/nav_absolutelayout"
+            android:title="AbsoluteLayout"/>
+        <item
+            android:id="@+id/nav_relativelayout"
+            android:title="RelativeLayout"/>
+        <item
+            android:id="@+id/nav_linearlayout"
+            android:title="LinearLayout"/>
+        <item
+            android:id="@+id/nav_scrollview"
+            android:title="ScrollView"/>
+    </group>
+
+</menu>
